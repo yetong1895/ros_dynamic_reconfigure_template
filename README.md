@@ -56,6 +56,11 @@ generate_dynamic_reconfigure_options(
   #...
 )
 ```
+## Run the GUI
+```
+rosrun rqt_reconfigure rqt_reconfigure
+```
+
 ## References
 - http://wiki.ros.org/dynamic_reconfigure/Tutorials/HowToWriteYourFirstCfgFile
 - http://wiki.ros.org/dynamic_reconfigure/Tutorials/SettingUpDynamicReconfigureForANode%28cpp%29
