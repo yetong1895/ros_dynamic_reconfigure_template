@@ -56,17 +56,16 @@ find_package(catkin REQUIRED COMPONENTS
   dynamic_reconfigure
 )
 
-#find_package(catkin REQUIRED dynamic_reconfigure)
+find_package(catkin REQUIRED dynamic_reconfigure)
 generate_dynamic_reconfigure_options(
   cfg/cfg_file_name.cfg
-  #...
 )
 ```
 Add the following lines to our package.xml.
 ```
-  <build_depend>dynamic_reconfigure</build_depend>
-  <build_export_depend>dynamic_reconfigure</build_export_depend>
-  <exec_depend>dynamic_reconfigure</exec_depend>
+<build_depend>dynamic_reconfigure</build_depend>
+<build_export_depend>dynamic_reconfigure</build_export_depend>
+<exec_depend>dynamic_reconfigure</exec_depend>
 ```
 ## Step 4: Setup Dynamic Reconfigure for a ROS Node
 Add the following lines of code into your ROS node
