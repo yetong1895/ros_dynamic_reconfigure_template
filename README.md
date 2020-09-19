@@ -56,7 +56,7 @@ find_package(catkin REQUIRED COMPONENTS
   dynamic_reconfigure
 )
 
-find_package(catkin REQUIRED dynamic_reconfigure)
+#find_package(catkin REQUIRED dynamic_reconfigure)
 generate_dynamic_reconfigure_options(
   cfg/cfg_file_name.cfg
 )
